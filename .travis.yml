@@ -1,0 +1,9 @@
+language: node_js
+addons:
+  sonarcloud:
+    organization: "wipro_organization_key" # the key of the org you chose at step #3
+    token:
+      secure: ef9469901d36b5a36a209bb4fd96ec57f7869879 # encrypted value of your token
+script:
+  # other script steps might be done before running the actual analysis
+  - sonar-scanner

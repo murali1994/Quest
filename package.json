@@ -6,7 +6,7 @@
     "start": "node server/bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Nivethitha Ravichandran Ramani",
+  "author": "Murali Krishna",
   "license": "ISC",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
@@ -54,5 +54,15 @@
     "webpack": "^3.10.0",
     "webpack-dev-middleware": "^1.12.2",
     "webpack-hot-middleware": "^2.21.0"
-  }
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murali1994/Quest.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/murali1994/Quest/issues"
+  },
+  "homepage": "https://github.com/murali1994/Quest#readme"
 }
